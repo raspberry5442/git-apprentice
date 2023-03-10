@@ -9,3 +9,4 @@ The current branch is "feature-A", I make an edit here.
 
 I create a new feature named fix-B.
 
+ Create a new branch feature-C.
