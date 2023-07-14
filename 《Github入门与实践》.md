@@ -141,16 +141,6 @@ Git 提供了一个叫做 git config 的工具，专门用来配置或读取相�
 #### Git与Github的使用
 ##### 设置SSH Key
 书中提到如何进行SSH Key的设置（注意，Linux系统中输入密码时是不可见的）([pdf](zotero://open-pdf/library/items/6VSIXIP2?page=57&annotation=FNH45N2Q))，但并没有对Git中的SSH Key的概念性的介绍。没有缘由地就让搞SSH Key和添加公开密钥。日本人写书都没有逻辑性的么（黑人问号.jpg）？ 
-这里我按照书上的操作执行了一遍，截图为：![image-20230309032025763](https://zheyu-notepic.oss-cn-beijing.aliyuncs.com/Upside/image-20230309032025763.png)
-```L
-Your identification has been saved in /c/Users/47176/.ssh/id_rsa
-Your public key has been saved in /c/Users/47176/.ssh/id_rsa.pub
-The key fingerprint is:
-SHA256:Sldro+iIN0UgXCl5euGXS2Zlht6VnedkNmztqzazOJg 51783246+raspberry5442@users.noreply.github.com
-
-```
-``
-> id_rsa 文件是私有密钥，id_rsa.pub 是公开密钥。 ([pdf](zotero://open-pdf/library/items/6VSIXIP2?page=58&annotation=ML4YDJR8))
 
 ##### 在GitHub中添加公开密钥
 ([pdf](zotero://open-pdf/library/items/6VSIXIP2?page=58&annotation=H7TMUU3C))注意：在GitHub上new SSH Key时，key的内容是要把id_rsa.pub中的内容全部粘贴进去，包括开头的`ssh-rsa`和结尾的邮箱。
